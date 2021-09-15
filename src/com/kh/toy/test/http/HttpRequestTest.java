@@ -73,7 +73,7 @@ public class HttpRequestTest extends HttpServlet implements Servlet {
 		pythonKeywords.add("플러터");
 		
 		Map<String,Object> javaGroup = new LinkedHashMap<String, Object>();//순서보장을 위해서
-		javaGroup.put("groupName","자바");
+		javaGroup.put("groupName","자바!");
 		javaGroup.put("keywords",javaKeywords);
 		
 		Map<String,Object> pythonGroup = new LinkedHashMap<String, Object>();//순서보장을 위해서
