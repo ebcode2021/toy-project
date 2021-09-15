@@ -57,7 +57,7 @@ public class HttpRequestTest extends HttpServlet implements Servlet {
 	private void testNaver() {
 		HttpConnector conn = new HttpConnector();
 		Gson gson = new Gson();
-		
+		System.out.println();
 		String url = "https://openapi.naver.com/v1/datalab/search";
 		Map<String,String>headers = new HashMap<String,String>();
 		headers.put("X-Naver-Client-Id","lG5fdkhAXBxAn9zbksfX");
